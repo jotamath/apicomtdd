@@ -8,4 +8,3 @@ class BaseSchemaMixin(BaseModel):
     created_at: datetime = Field(default_factory=datetime.utcnow)
     updated_at: datetime = Field(default_factory=datetime.utcnow)
 
-#TODO: 06:14 TESTE DE SCHEMAS
