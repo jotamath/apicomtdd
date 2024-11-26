@@ -4,4 +4,5 @@ run:
 precommit-install:
 	@poetry run pre-commit install
 
-#TODO: teste de schemas 00:19
+test:
+	@poetry run pytest
