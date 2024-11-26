@@ -12,3 +12,5 @@ class App(FastAPI):
         )
 
 app = App()
+
+#TODO: Criação Mongo Client e Testes iniciais de usecases
