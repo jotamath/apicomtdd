@@ -6,3 +6,9 @@ precommit-install:
 
 test:
 	@poetry run pytest
+
+docker:
+	docker-compose up -d
+
+dps:
+	docker ps
